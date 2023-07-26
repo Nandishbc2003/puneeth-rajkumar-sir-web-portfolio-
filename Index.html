@@ -1,0 +1,639 @@
+<center>
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<header>
+  <h1>
+    <span id="auto-type"></span>
+    <span id="cursor"></span>
+  </h1>
+</header>
+<style type="text/css">header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  position: relative;
+  display: inline-block;
+}
+
+#cursor {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 10px;
+  height: 100%;
+  background-color: #fff;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+</style>
+<script type="text/javascript">const text = "HAPPY BIRTHDAY🎂🎂PUNEETH RAJ KUMAR SIR ";
+const typingDelay = 100;
+const erasingDelay = 50;
+const newTextDelay = 2000;
+let i = 0;
+let j = 0;
+let direction = 1;
+
+function type() {
+  if (i < text.length) {
+    document.getElementById("auto-type").textContent += text.charAt(i);
+    i++;
+    setTimeout(type, typingDelay);
+  } else {
+    setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+  if (i >= 0) {
+    document.getElementById("auto-type").textContent = text.substring(0, i);
+    i--;
+    setTimeout(erase, erasingDelay);
+  } else {
+    direction *= -1;
+    setTimeout(type, typingDelay);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  setTimeout(type, newTextDelay);
+});
+</script><br><br><br><div class="neuroporism">
+  <img src="a.jpg" alt="Puneeth Rajkumar">
+  <div class="details">
+    <h3>Puneeth Rajkumar</h3>
+    <p>Born: March 17, 1975</p>
+    <p>Occupation: Actor, singer, producer, television presenter</p>
+    <p>Years active: 1976–present</p>
+  </div>
+</div>
+<style type="text/css">.neuroporism {
+  position: relative;
+  display: inline-block;
+}
+
+.neuroporism:hover .details {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, -100%);
+}
+
+.neuroporism img {
+  width: 250px;
+  height: auto;
+}
+
+.neuroporism .details {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  visibility: hidden;
+  opacity: 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.neuroporism .details h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.neuroporism .details p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+</style><br><br><br><br><br><br>
+</html><div class="image-gallery">
+  <div class="slider">
+    <img src="b.JPG" alt="Image 1">
+    <img src="c.jpg" alt="Image 2">
+    <img src="d.jpg" alt="Image 3">
+    <img src="e.JPG" alt="Image 4">
+    <img src="f.jpg" alt="Image 5">
+    <img src="g.jpg" alt="Image 6">
+    <img src="h.jpg" alt="Image 7">
+    <img src="i.jpg" alt="Image 8">
+    <img src="j.jpg" alt="Image 9">
+    <img src="k.jpg" alt="Image 10">
+  </div>
+</div>
+<style type="text/css">.image-gallery {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000%; /* Set the width to be 10 times the width of the container to accommodate all the images */
+  animation: slide 30s infinite linear;
+}
+
+.slider img {
+  float: left;
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+}
+</style>
+<script type="text/javascript">const slider = document.querySelector(".slider");
+
+slider.addEventListener("mouseover", () => {
+  slider.style.animationPlayState = "paused";
+});
+
+slider.addEventListener("mouseout", () => {
+  slider.style.animationPlayState = "running";
+});
+</script>
+</body></DOCTYPE>
+<div class="quote-section">
+  <div class="quote-container">
+    <div class="quote">
+      <p>"BANGARADA MANUSYA "</p>
+      <p class="author">- MAN OF 🏆GOLD</p>
+    </div>
+    <div class="quote">
+      <p>"POWER ⭐⭐⭐⭐ STAR."</p>
+      <p class="author">- LEGEND IN ACTION</p>
+    </div>
+    <div class="quote">
+      <p>"NATASARVABHAVMA."</p>
+      <p class="author">-EMPEROR OF ACTORS </p>
+    </div>
+  </div>
+</div>
+<style type="text/css">.quote-section {
+  overflow: hidden;
+}
+
+.quote-container {
+  display: flex;
+  animation: move-quotes 10s linear infinite;
+}
+
+.quote {
+  flex: 1;
+  margin: 0 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.author {
+  font-style: italic;
+}
+
+@keyframes move-quotes {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+</style>
+<div class="awards-section">
+  <h2>Awards & Achievements</h2>
+  <div class="awards-container">
+    <div class="award">
+      <img src="aa.jpg" alt="Award 1">
+      <h3>APPU</h3>
+      <p>KARNATAKA RATNA<br>-2022 .</p>
+    </div>
+    <div class="award">
+      <img src="ab.jpg" alt="Award 2">
+      <h3>POWER</h3>
+      <p>NATIONAL FILM <br>AWARD-1985.</p>
+    </div>
+    <div class="award">
+      <img src="ac.jpg" alt="Award 3">
+      <h3>DYNAMIC</h3>
+      <p>FILM FARE AWARD -2007,2012,2016.</p>
+    </div>
+  </div>
+</div>
+<style type="text/css">.awards-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.awards-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.awards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.award {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+  overflow: hidden;
+}
+
+.award img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.award:hover img {
+  transform: scale(1.2);
+}
+
+.award h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.award p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  transition: transform 0.5s;
+  transform: translateY(100%);
+}
+
+.award:hover p {
+  transform: translateY(0);
+}
+</style>
+<section class="video-section">
+  <div class="video-gallery">
+    <video src="a.mp4" controls></video>
+  </div>
+  <div class="video-gallery">
+    <video src="b.mp4" controls></video>
+  </div>
+  <div class="video-gallery">
+    <video src="c.mp4" controls></video>
+  </div>
+  <div class="video-gallery">
+    <video src="d.mp4" controls></video>
+  </div>
+  <div class="video-gallery">
+    <video src="e.mp4" controls></video>
+  </div>
+</section>
+<style type="text/css">.video-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-gallery {
+  margin: 10px;
+  width: 200px;
+}
+
+.video-gallery video {
+  width: 100%;
+}
+</style>
+<script type="text/javascript">const videos = document.querySelectorAll('video');
+videos.forEach(video => {
+  video.addEventListener('click', () => {
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+});
+</script>
+<center>
+<div class="appu-circle">
+  <div class="appu">
+    Appu
+  </div>
+  <div class="hearts"></div>
+</div>
+<style type="text/css">.appu-circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.appu {
+  position: relative;
+  z-index: 1;
+}
+
+.hearts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hearts:before,
+.hearts:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #fc5185;
+  border-radius: 50%;
+  animation: heart 1.5s ease-in-out infinite;
+}
+
+.hearts:after {
+  background-color: #43cea2;
+  animation-delay: 0.75s;
+}
+
+@keyframes heart {
+  0% {
+    transform: translate(-100px, -100px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100px, 100px);
+    opacity: 0;
+  }
+}
+</style>
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="movie-card" data-movie="The Dark Knight">
+      <img src="cc.jpeg" alt="APPU">
+      <div class="movie-details">
+        <h3>APPU</h3>
+        <p>Year: 2002</p>
+        <p>PURI JAGANNATH</p>
+        <p>PRODUCER:PARVATHAMMA <br>RAJKUMAR</p>
+      </div>
+    </div><br /><br /><br />
+    <div class="movie-card" data-movie="Inception">
+      <img src="cb.jpeg" alt="JAAKI">
+      <div class="movie-details">
+        <h3></h3>
+        <p>Year:2010</p>
+        <p>Director:DUNIYA SURI</p>
+        <p>PRODUCER:PARVATHAMMA<br> RAJKUMAR</p>
+      </div>
+    </div><br /><br /><<br />
+    <div class="movie-card" data-movie="Interstellar">
+      <img src="ca.jpeg" alt="Interstellar">
+      <div class="movie-details">
+        <h3>ARASU</h3>
+        <p>Year: 2007</p>
+        <p>Director:JANARDHANA MAHARSI</p>
+        <p>PRODUCER:PARVATHAMMA <br>RAJKUMAR</p>
+      </div>
+    </div>
+  </div>
+</div>
+<style type="text/css">.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display:center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.movie-card {
+  width: 150px;
+  margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 200px;
+}
+
+.movie-details {
+  display: none;
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+  transition: bottom 0.5s ease-in-out;
+}
+
+.movie-details h3 {
+  margin-top: 0;
+}
+
+.movie-card:hover .movie-details {
+  display: block;
+  bottom: 0;
+}
+
+.movie-details::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 10px);
+}
+</style>
+<script type="text/javascript">const carousel = document.querySelector(".carousel");
+const movieCards = document.querySelectorAll(".movie-card");
+const movieDetails = document.querySelectorAll(".movie-details");
+
+let counter = 0;
+const size = movieCards[0].clientWidth + 10;
+
+carousel.style.transform = "translateX(" + -size * counter + "px)";
+
+movieCards.forEach((card, index) => {
+  card.addEventListener("click", () => {
+    movieDetails.forEach((
+detail) => {
+detail.style.display = "none";
+});
+const selectedMovie = card.getAttribute("data-movie");
+const selectedDetail = document.querySelector(.movie-card[data-movie="${selectedMovie}"] .movie-details);
+selectedDetail.style.display = "block";
+});
+});
+
+document.querySelector("#next").addEventListener("click", () => {
+if (counter >= movieCards.length - 1) return;
+carousel.style.transition = "transform 0.5s ease-in-out";
+counter++;
+carousel.style.transform = "translateX(" + -size * counter + "px)";
+});
+
+document.querySelector("#prev").addEventListener("click", () => {
+if (counter <= 0) return;
+carousel.style.transition = "transform 0.5s ease-in-out";
+counter--;
+carousel.style.transform = "translateX(" + -size * counter + "px)";
+});
+
+carousel.addEventListener("transitionend", () => {
+if (movieCards[counter].getAttribute("data-movie") === "Clone Wars") {
+carousel.style.transition = "none";
+counter = movieCards.length - 2;
+carousel.style.transform = "translateX(" + -size * counter + "px)";
+}
+if (movieCards[counter].getAttribute("data-movie") === "The Dark Knight Rises") {
+carousel.style.transition = "none";
+counter = movieCards.length - counter;
+carousel.style.transform = "translateX(" + -size * counter + "px)";
+}
+});</script><center>
+<div class="image-gallery">
+  <img src="ba.jpeg" alt="Image 1">
+  <img src="bb.jpeg" alt="Image 2">
+  <img src="bc.jpeg" alt="Image 3">
+  <img src="bd.jpeg" alt="Image 5">
+  <img src="be.jpeg" alt="Image 6">
+  <img src="bf.jpeg" alt="Image 7">
+</div>
+<style type="text/css">.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.1);
+}
+
+.image-gallery img.expanded {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 9999;
+}
+</style>
+<script type="text/javascript">const images = document.querySelectorAll('.image-gallery img');
+
+images.forEach(img => {
+  img.addEventListener('click', e => {
+    images.forEach(otherImg => {
+      if (otherImg !== img) {
+        otherImg.classList.remove('expanded');
+      }
+    });
+    img.classList.toggle('expanded');
+  });
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    images.forEach(img => {
+      img.classList.remove('expanded');
+    });
+  }
+});
+</script>
+  <br /><br /><br />NOTE:BEST VIEWED IN CHROME,SAFARI AND MOZILLA FIREFOX.
+  -USER TO REFRESH THE PAGE TO SEE THE ANIMATION EFFECTS AGAIN <br /><br /><br />
+
+<div class="credit">
+  <p>DESIGNED AND DEVELOPED BY NANDISH BC</p>
+</div>
+<style type="text/css">.credit {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.credit p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+      </style>
+  
