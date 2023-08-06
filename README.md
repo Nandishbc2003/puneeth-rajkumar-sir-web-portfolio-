@@ -45,7 +45,7 @@ Social media:<br>*Facebook-<br><br>https://www.facebook.com/profile.php?id=10007
 [![](https://visitcount.itsvg.in/api?id=Nandishbc2003&icon=0&color=0)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://www.buymeacoffee.com/nandishbc1l) 
+  [https://www.buymeacoffee.com/nandishbc1l](https://www.buymeacoffee.com/nandishbc1l)
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
