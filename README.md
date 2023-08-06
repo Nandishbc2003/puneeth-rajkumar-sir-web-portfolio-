@@ -20,14 +20,14 @@ AND FOR MAKING REPSONSIVE ABOUT THE WEB PORTFOLIO ADD OTHER IMAGES VIDEOS U NEED
 
 - 📫 How to reach me **nandishbc13@gmail.com**
 
-- 📄 Know about my experiences [https://tutor-tracking-system.nandishbc2003.repl.co/](  https://my-portfolio.nandishbc2003.repl.co/)
+- 📄 Know about my experiences [https://my-portfolio.nandishbc2003.repl.co/](  https://my-portfolio.nandishbc2003.repl.co/)
 
 - ⚡ Fun fact **I am currently learning and exploring javascript to build responsive mobile apps,web apps ,desktop apps,games.**
 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://codepen.io/nandishbcSOFTWARE2003/" target="blank"> CODPEN FOLLOW </a>SS
+<a href="https://codepen.io/nandishbcSOFTWARE2003/" target="blank"> CODPEN</a>FOLLOW ME
 
 
 # 💫 About Me:
