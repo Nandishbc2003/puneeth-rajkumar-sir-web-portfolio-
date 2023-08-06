@@ -14,6 +14,12 @@ AND FOR MAKING REPSONSIVE ABOUT THE WEB PORTFOLIO ADD OTHER IMAGES VIDEOS U NEED
 
 - 👨‍💻 All of my projects are available at [ https://studentcontinent.page.link/L17JuYcVko6nGz2Q6](https://studentcontinent.page.link/L17JuYcVko6nGz2Q6)
 
+
+FOR DISCORD SERVER FOLLOW ME
+[https://discord.gg/DzDVrAhc ](https://discord.gg/DzDVrAhc)
+
+
+
 - 📝 I regularly write articles on [ https://dev.to/nandishbc2003](https://dev.to/nandishbc2003)
 
 - 💬 Ask me about **Html ,css ,js , jquery,bootstrap,saas,php,c++**
