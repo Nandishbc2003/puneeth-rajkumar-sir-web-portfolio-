@@ -12,9 +12,9 @@ AND FOR MAKING REPSONSIVE ABOUT THE WEB PORTFOLIO ADD OTHER IMAGES VIDEOS U NEED
 
 - 🌱 I’m currently learning **Backend development ,app development**
 
-- 👨‍💻 All of my projects are available at [https://my-portfolio.nandishbc2003.repl.co/](https://studentcontinent.page.link/L17JuYcVko6nGz2Q6)
+- 👨‍💻 All of my projects are available at [ https://studentcontinent.page.link/L17JuYcVko6nGz2Q6](https://studentcontinent.page.link/L17JuYcVko6nGz2Q6)
 
-- 📝 I regularly write articles on [https://dev.to/nandishbc2003](https://dev.to/nandishbc2003)
+- 📝 I regularly write articles on [ https://dev.to/nandishbc2003](https://dev.to/nandishbc2003)
 
 - 💬 Ask me about **Html ,css ,js , jquery,bootstrap,saas,php,c++**
 
@@ -45,7 +45,7 @@ Social media:<br>*Facebook-<br><br>https://www.facebook.com/profile.php?id=10007
 [![](https://visitcount.itsvg.in/api?id=Nandishbc2003&icon=0&color=0)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://www.buymeacoffee.com/nandishbc1l)](https://buymeacoffee.com/Nandish bc) 
+  [![BuyMeACoffee](https://www.buymeacoffee.com/nandishbc1l) 
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
