@@ -54,5 +54,7 @@ Social media:<br>*Facebook-<br><br>https://www.facebook.com/profile.php?id=10007
   KARNATAKA BANK A/C NO:9142500102261801
   IFSC CODE :KARB0000914
 
+EQUITAS BANK A/C NO:100016751726
+IFSC Code: ESFB0003032
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
